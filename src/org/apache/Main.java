@@ -8,6 +8,8 @@ public class Main
 	{
 		try
 		{
+			System.out.println("Waiting 10 seconds...");
+			Thread.sleep(10000);
 			UncaughtExceptionTester.boom();
 		}
 		catch (Exception e)
